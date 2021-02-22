@@ -1,0 +1,68 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+}
+
+/* Mobiles */
+@media (min-width: 0px) and (max-width: 1200px) {
+  .textContainer {
+    width: 90%;
+  }
+}
+
+/* Midscreen */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .textContainer {
+    width: 70%;
+  }
+}
+
+/* Widescreen */
+@media (min-width: 1501px) {
+  .textContainer {
+    width: 60%;
+  }
+}
+
+.activeContainer {
+  display: flex;
+  margin: 10px;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+.onlineUsersTitle {
+  font-size: 1.5em;
+  height: 400px;
+}
+
+.onlineUsersList {
+  font-size: 1.1em;
+}
+
+.noPlayers {
+  text-align: left;
+  margin: 10px;
+}
+
+.offlineImg {
+  margin-top: 15px;
+  height: 10%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

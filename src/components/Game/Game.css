@@ -1,0 +1,62 @@
+.gameContainer {
+  text-align: center;
+  background-color: grey;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.gameContainerLarge {
+  text-align: center;
+  background-color: grey;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameboxContent {
+  width: 100%;
+  height: 100%;
+}
+
+.gameIcon {
+  height: 100px;
+  width: 100px;
+}
+
+/* Mobiles */
+@media (min-width: 0px) and (max-width: 1200px) {
+  .gameContainer {
+    width: 90%;
+  }
+
+  .gameContainerLarge {
+    width: 90%;
+  }
+}
+
+/* Midscreen */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .gameContainer {
+    width: 80%;
+  }
+
+  .gameContainerLarge {
+    width: 80%;
+  }
+}
+
+/* Widescreen */
+@media (min-width: 1501px) {
+  .gameContainer {
+    width: 75%;
+  }
+
+  .gameContainerLarge {
+    width: 75%;
+  }
+}

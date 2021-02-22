@@ -1,0 +1,84 @@
+.mainOuterContainer {
+  height: 100%;
+}
+
+.mainInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 85%;
+  background-color: #2b2b2f;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 35%;
+  min-height: 200px;
+  height: 40%;
+  margin-top: 5px;
+}
+
+.hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 35%;
+  height: 250px;
+  margin-top: 5px;
+}
+
+.coverShim {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+/* Mobiles */
+@media (min-width: 0px) and (max-width: 1200px) {
+  .chatContainer {
+    width: 90%;
+    height: 50%;
+  }
+  .hidden {
+    width: 90%;
+    height: 40px;
+  }
+}
+
+/* Midscreen */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .chatContainer {
+    width: 80%;
+    height: 50%;
+  }
+  .hidden {
+    width: 80%;
+    height: 40px;
+  }
+}
+
+/* Wide screen */
+@media (min-width: 1501px) {
+  .chatContainer {
+    height: 50%;
+    width: 75%;
+  }
+
+  .hidden {
+    width: 75%;
+    height: 40px;
+  }
+}

@@ -1,0 +1,31 @@
+.navBarContainer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.burgerIcon {
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.burgerIcon:active {
+  filter: invert(66%) sepia(0%) saturate(3429%) hue-rotate(139deg)
+    brightness(105%) contrast(81%);
+}
+
+.backArrow {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.backArrow:active {
+  filter: invert(66%) sepia(0%) saturate(3429%) hue-rotate(139deg)
+    brightness(105%) contrast(81%);
+}
