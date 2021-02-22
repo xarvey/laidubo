@@ -12,7 +12,7 @@ const RoomFull = () => {
         }}
       >
         <div className="roomFullPopUp">
-          <h1>Unable to join: room full or game in progress</h1>
+          <h1>人满了呀</h1>
           <Link to="/">
             <button className="button">Ok</button>
           </Link>

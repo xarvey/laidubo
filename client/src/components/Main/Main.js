@@ -28,7 +28,7 @@ const Main = ({ location }) => {
   const [gameData, setGameData] = useState({});
 
   // Points at the back end:
-  const ENDPOINT = "https://web-game-boilerplate.herokuapp.com/";
+  const ENDPOINT = "https://laidubo.herokuapp.com/";
   // const ENDPOINT = "localhost:5000";
 
   useEffect(() => {
